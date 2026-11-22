@@ -1,0 +1,22 @@
+# GitHub Pages Configuration
+# Jekyll minimal configuration for VitaIQ documentation site
+
+theme: minima
+title: VitalIQ
+description: Personalized HRV, Recovery & Sleep Intelligence
+url: https://dolair02.github.io/vitaliq
+baseurl: ""
+
+# Navigation
+navbar:
+  title: VitalIQ
+  logo: true
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /
+
+markdown: kramdown
+highlighter: rouge

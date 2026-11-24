@@ -1,68 +1,91 @@
-# Privacy Policy
+---
+layout: page
+title: Privacy Policy
+permalink: /privacy
+---
 
-**Effective Date**: November 2026
+**Effective Date**: November 23, 2026  
+**Last Updated**: November 23, 2026
 
-VitalIQ is designed for general fitness and wellness purposes only and is not a medical device.
+VitalIQ ("we", "our", or "us") is developed by Dolair Technologies. VitalIQ is designed for general fitness and wellness purposes only and is not a medical device.
 
-## Data We Collect
+This Privacy Policy explains how VitalIQ accesses, processes, and protects your information when you use the VitalIQ iOS and watchOS applications.
 
-### Health Data
+---
+
+## 1. Data We Access & Process
+
+### Health & Biometric Data (Apple HealthKit)
+With your explicit permission, VitalIQ reads and writes specific health metrics via Apple HealthKit:
 - **Heart Rate Variability (HRV)**
-- **Resting Heart Rate (RHR)**
-- **Sleep Metrics** (duration, stages, consistency)
-- **Strain & Recovery Scores** (calculated metrics)
-- **Active Energy Expenditure**
+- **Resting Heart Rate (RHR) & Heart Rate**
+- **Sleep Metrics** (duration, sleep stages, and consistency)
+- **Active Energy Expenditure & Workout History**
+- **Calculated Readiness Metrics** (Strain & Recovery scores computed locally)
 
-All health data is processed locally on your device and never transmitted to external servers.
+**On-Device Processing Only**: All HealthKit and biometric data is processed **100% locally on your device**. We do not transmit, upload, or store your HealthKit or biometric data on any external servers or cloud databases.
 
-### Device & Usage Data
-- App launch times and session duration (for crash analytics)
-- Subscription status (locally stored)
-
-## How We Use Your Data
-
-- **Personalized Insights**: Generate daily readiness scores, sleep analysis, and strain recommendations
-- **Progress Tracking**: Visualize trends in recovery and activity
-- **Apple Watch Integration**: Enable complications and standalone watchOS functionality
-- **App Purchases**: Verify and restore subscription entitlements
-
-## Data Sharing & Selling
-
-We do **not**:
-- Sell your data to advertising platforms or data brokers
-- Share health data with third parties
-- Use your data for targeted advertising
-
-## HealthKit Integration
-
-VitalIQ integrates with Apple HealthKit:
-- **Reads**: HRV, RHR, sleep analysis, active energy, workout history
-- **Writes**: Workout metrics and active calories
-
-You can revoke HealthKit permissions anytime in iOS Settings > Privacy & Security > Health.
-
-## Apple Watch & WidgetKit
-
-Biometric data is synced between iPhone and Apple Watch via encrypted App Group storage using Apple’s WatchConnectivity framework.
-
-## App Store Privacy
-
-Per Apple requirements:
-- VitalIQ is **not a medical device**
-- Data is **not used for diagnostic purposes**
-- Always consult a qualified healthcare provider for medical concerns
-
-## Contact
-
-**Developer**: Dolair Technologies  
-**Email**: dolair02@gmail.com  
-**GitHub**: https://github.com/dolair02/vitaliq
+### Device & Subscription Data
+- **Subscription Entitlements**: Handled directly by Apple via StoreKit 2 to verify and restore your VitalIQ Pro subscription status. We do not have access to your credit card or billing details.
+- **App Preferences**: Local settings (such as onboarding completion, selected goals, and preferences) are stored locally on your device via iOS `UserDefaults` and encrypted App Group storage.
 
 ---
 
-© 2026 Dolair Technologies
+## 2. How We Use Your Information
+
+We process your data solely on your device to:
+- **Compute Personalized Insights**: Generate daily Recovery scores, 0–21 Strain metrics, Sleep Architecture analysis, and AI Health Coach readiness briefings.
+- **Visualize Trends**: Display historical comparisons against your personal 60-day biometric baseline.
+- **Sync with Apple Watch & Widgets**: Share computed readiness snapshots between your iPhone, Apple Watch app, and watchOS complications via Apple's encrypted App Group container and `WatchConnectivity` framework.
+- **Manage Subscriptions**: Validate active subscription or free trial entitlements through Apple's App Store.
 
 ---
 
-> **Note**: For App Store submission, use:
-> - Privacy URL: `https://dolair02.github.io/vitaliq/privacy`
+## 3. Data Sharing, Selling & Advertising
+
+In strict compliance with Apple App Store Review Guidelines (Guideline 5.1.1 & HealthKit requirements):
+- We **never** sell, rent, or trade your personal or health data to advertising platforms, data brokers, or information resellers.
+- We **never** share HealthKit data with third parties for marketing, advertising, or data mining.
+- We **never** use your data for third-party tracking across apps or websites.
+
+---
+
+## 4. Data Retention & Deletion
+
+Because VitalIQ does not create external user accounts or store your personal or health data on external servers:
+- **Revoking HealthKit Access**: You can view or revoke VitalIQ's read/write permissions at any time in **iOS Settings > Privacy & Security > Health > VitalIQ** (or within the Apple Health app).
+- **Deleting All Local App Data**: Uninstalling the VitalIQ app from your iPhone and Apple Watch permanently deletes all locally cached preferences and computed snapshots stored in the app's local container.
+- **Managing Apple Health Records**: Any workout or active energy records written to Apple Health remain under your control inside the Apple Health app and can be deleted directly within Apple Health at any time.
+
+---
+
+## 5. Non-Medical Disclaimer
+
+VitalIQ is intended strictly for general fitness, athletic recovery tracking, and wellness education. VitalIQ is **not a medical device** and does not provide medical diagnosis, treatment, or clinical advice. Always consult a qualified physician or healthcare professional before making changes to your exercise regimen or if you have any questions regarding a medical condition.
+
+---
+
+## 6. Children's Privacy
+
+VitalIQ does not knowingly collect personal information from children under the age of 13.
+
+---
+
+## 7. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any updates will be posted on this page with an updated revision date.
+
+---
+
+## 8. Contact Us
+
+If you have any questions about this Privacy Policy or our privacy practices, please contact us:
+
+- **Developer**: Dolair Technologies
+- **Email**: [dolair02@gmail.com](mailto:dolair02@gmail.com)
+- **Support**: [https://dolair02.github.io/vitaliq/support](https://dolair02.github.io/vitaliq/support)
+- **Terms of Use**: [https://dolair02.github.io/vitaliq/terms](https://dolair02.github.io/vitaliq/terms)
+
+---
+
+© 2026 Dolair Technologies. All rights reserved.

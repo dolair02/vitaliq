@@ -1,34 +1,39 @@
-# Welcome to VitalIQ
+---
+layout: page
+title: Welcome to VitalIQ
+permalink: /
+---
 
-> Personalized HRV, Recovery & Sleep Intelligence
+> **Personalized HRV, Recovery & Strain Intelligence for iPhone and Apple Watch**
 
 **Developer**: Dolair Technologies  
-**Support**: https://dolair02.github.io/vitaliq/support  
-**Privacy**: https://dolair02.github.io/vitaliq/privacy
+**Support**: [Support Center](https://dolair02.github.io/vitaliq/support)  
+**Privacy Policy**: [Privacy Policy](https://dolair02.github.io/vitaliq/privacy)  
+**Terms of Use**: [Terms of Use (EULA)](https://dolair02.github.io/vitaliq/terms)
 
 ---
 
 ## Features
 
-- **Strain & Recovery**: 0-21 scale calibrated to your HRV baseline
-- **Sleep Architecture**: Deep, REM, Light sleep tracking with debt analysis
-- **Apple Watch**: StandAlone watchOS app with complication widgets
-- **AI Health Coach**: Daily biometric-aware briefings
+- **Strain & Recovery Engine**: 0–21 cardiovascular strain scale and daily recovery percentage calibrated dynamically to your 60-day HRV and RHR baseline.
+- **Sleep Architecture & Debt**: Track Deep, REM, and Core sleep stages alongside personalized sleep need.
+- **Apple Watch Companion & Complications**: Standalone watchOS app with glanceable circular, corner, and rectangular complications.
+- **AI Health Coach Briefings**: Daily biometric-aware readiness briefings and training intensity guidance.
+- **100% On-Device Privacy**: Your Apple HealthKit data stays on your device and is never sold or shared.
 
 ---
 
 ## Get Started
 
-1. Download VitalIQ from the App Store
-2. Grant HealthKit permissions
-3. Pair your Apple Watch (optional)
-4. Start tracking recovery and strain
+1. Download **VitalIQ: Recovery & Strain** from the App Store.
+2. Grant Apple HealthKit permissions so VitalIQ can calibrate your personal baseline.
+3. Wear your Apple Watch during workouts and sleep for real-time recovery and strain tracking.
 
 ---
 
-## Support
+## Contact & Legal
 
-- Email: dolair02@gmail.com
-- GitHub: https://github.com/dolair02/vitaliq
-- Support: [support.md](support.md)
-- Privacy: [privacy.md](privacy.md)
+- **Support Email**: [dolair02@gmail.com](mailto:dolair02@gmail.com)
+- **Support Page**: [https://dolair02.github.io/vitaliq/support](https://dolair02.github.io/vitaliq/support)
+- **Privacy Policy**: [https://dolair02.github.io/vitaliq/privacy](https://dolair02.github.io/vitaliq/privacy)
+- **Terms of Use**: [https://dolair02.github.io/vitaliq/terms](https://dolair02.github.io/vitaliq/terms)
